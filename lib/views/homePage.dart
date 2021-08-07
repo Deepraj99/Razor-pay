@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 103),
+            SizedBox(height: 73),
             textField(nameController, "Enter name", TextInputType.text,
                 Icons.people_alt),
             textField(
@@ -105,9 +105,9 @@ class _HomePageState extends State<HomePage> {
                 Icons.money),
             textField(descriptionController, "Enter description",
                 TextInputType.text, Icons.description),
-            SizedBox(height: 53),
+            SizedBox(height: 60),
             SizedBox(
-              width: 354,
+              width: 322,
               height: 60,
               child: ElevatedButton(
                 child: Text(
